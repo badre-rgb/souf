@@ -1,0 +1,180 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fond noir */
+    color: #f5c500; /* Texte doré */
+}
+
+h1, h2, h3 {
+    color: #f5c500; /* Titres dorés */
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Fond noir */
+    color: #f5c500; /* Texte doré */
+    padding: 20px 50px;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+header .logo p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #f5c500; /* Liens dorés */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4af37; /* Effet doré plus clair au survol */
+}
+
+/* Section Hero */
+.hero {
+    background-color: #000000; /* Fond noir */
+    color: #f5c500; /* Texte doré */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.cta {
+    background-color: #f5c500; /* Bouton doré */
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    background-color: #d4af37; /* Effet doré plus clair au survol */
+}
+
+/* Services */
+.services {
+    padding: 50px 20px;
+    background-color: #333333; /* Fond gris foncé pour la section */
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #f5c500; /* Titre doré */
+}
+
+.service-card {
+    display: inline-block;
+    background-color: #000000; /* Fond noir */
+    border: 1px solid #f5c500; /* Bordure dorée */
+    padding: 30px;
+    width: 30%;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #f5c500; /* Titres des services dorés */
+}
+
+.service-card p {
+    font-size: 1.1em;
+    color: #f5c500; /* Texte des services doré */
+}
+
+/* À propos */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000000; /* Fond noir */
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #f5c500; /* Texte doré */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    background-color: #333333; /* Fond gris foncé */
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c500; /* Bordure dorée */
+    border-radius: 5px;
+    font-size: 1em;
+    color: #000; /* Texte noir dans les champs */
+    background-color: #f5c500; /* Fond doré dans les champs */
+}
+
+.contact button {
+    background-color: #f5c500; /* Bouton doré */
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #d4af37; /* Effet doré plus clair au survol */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Fond noir */
+    color: #f5c500; /* Texte doré */
+}
